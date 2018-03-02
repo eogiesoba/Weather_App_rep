@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+body{
+  background-image:url('https://images.unsplash.com/photo-1505575588172-c2ecd614c72c?auto=format&fit=crop&w=1500&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+}
+video { 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    transition: 1s opacity;
+    z-index: -1;
+}
+
+#weather { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin:-240px 0px 0px -230px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 2rem 2rem 0rem;
+  width: 480px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius:10px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+button { 
+  display: block;
+  width: 55%;
+  padding: .4rem;
+  border: none; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background; 
+}
+
+button:hover { 
+   background: rgba(255,255,255,0.1);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(255,255,255,0.23);
+  padding: .5rem;
+  transition: .6s background;
+  border-radius: 3px;
+  font-size: .8rem;
+}
+
+a:hover{
+  background:rgba(255,255,255,0.1);
+  transition: .1s background;
+  color: #fff;
+}
+
+.footer{
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight:100; 
+  color: white;
+  padding: .2rem;
+  margin:40px auto 5px;;
+  font-size: .6rem;
+  text-align:center;
+}
+
+.space {
+  margin:8px auto;
+}
