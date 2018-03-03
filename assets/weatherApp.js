@@ -40,7 +40,7 @@ $( document ).ready(function(){
 
 function myWeather(lat, lon) {
   var APIKey = "394a1c48d4c97fab1cae99932648a009";
-  var queryURL = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=" + APIKey;
+  var queryURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=" + APIKey;
   $.ajax({
     url: queryURL, success: function (data) {
       $("#city").text(data.name + ",");
